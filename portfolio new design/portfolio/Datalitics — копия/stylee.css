@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+}
+.logo{
+    background: #2C57E4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.user i{
+    font-size: 22px;
+    background: #F0F3FC;
+    color: #6576AE;
+    border: 2px solid #6576AE;
+    padding: 10px;
+    border-radius: 20px;
+}
+.user h3{
+    color: #fff;
+    margin-left: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-img img{
+    width: 30%;
+}
+#menu{
+    display: none;
+}
+#sidenav{
+    background: #fff;
+    padding: 30px;
+}
+#sidenav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    transition: .2s ease-in-out;
+}
+#sidenav ul li{
+    list-style: none;
+    margin-left: 60px;
+    transition: .2s ease-in-out;
+}
+#sidenav ul li a{
+    text-decoration: none;
+    color: #6C7180;
+    transition: .2s ease-in-out;
+}
+#sidenav ul li a:hover{
+    border-bottom: 2px solid #2C57E4;
+    color: #2C57E4;
+    padding-bottom: 3px;
+}
+#main{
+    padding: 30px 100px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-img{
+    background: #7E9BFA;
+}
+.podpis{
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 54px;
+}
+.left{
+    width: 50%;
+    background: #fff;
+    border-radius: 10px;
+}
+.right{
+    background: #fff;
+    width: 60%;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.kvartal{
+    background: #fff;
+}
+.kvartal-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.kvartal-list h4{
+    margin-right: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.kvartal-list h4:hover{
+    color: #7E9BFA;
+}
+.podpis-text{
+    flex-direction: column;
+}
+.podpis-text h2{
+    color: #262626;
+}
+.podpis-text p{
+    color: #ACB1BF;
+}
+.podpis-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F3FC;
+    color: #2C57E4;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+}
+.podpis-btn i{
+    margin-left: 5px;
+    transition: .2s ease-in-out;
+    font-size: 14px;
+}
+.podpis-btn:hover{
+    background: #2C57E4;
+    color: #fff;
+    border: #2C57E4;
+}
+.right h3{
+    margin-bottom: 20px;
+}
+.func{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #F8F8FA;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.func-btn i{
+    color: #7E9BFA;
+}
+.func-btn a{
+    text-decoration: none;
+    color: #7E9BFA;
+}
+.func-btn i{
+    margin-left: 5px;
+}
+#token{
+    padding: 80px 100px;
+    
+}
+.token{
+   flex-direction: column;
+   background: #fff;
+   padding: 40px;
+   border-radius: 25px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-b p{
+    color: #495057;
+    margin-top: 10px;
+}
+.top-btn{
+    background: #2C57E4;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    transition: .2s ease-in-out;
+}
+.top-btn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+.top-btn:hover{
+    background: #fff;
+    border: 2px solid #2C57E4;
+}
+.top-btn:hover a{
+    color: #2C57E4;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #CFD4E5;
+    border-bottom: 2px solid #CFD4E5;
+    transition: .2s ease-in-out;
+    margin-top: 50px;
+}
+.bottom p{
+    padding-bottom: 15px;
+    transition: .2s ease-in-out;
+}
+.bottom p:hover{
+    color: #2C57E4;
+}
+.token-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.first-tok{
+    margin-top: 10px;
+}
+.second-tok{
+    color: #6C7180;
+    margin-top: 10px;
+}
+.third-tok a{
+    text-decoration: none;
+    color: #6C7180; 
+    margin-top: 10px;
+}
+.third-tok{
+    flex-direction: column;
+    display: flex;
+}
+.forth-tok{
+    color: #6C7180;
+    flex-direction: column;
+}
+.forth-tok p{
+    margin-top: 10px;
+}
+.fifth-tok{
+    display: flex;
+    justify-content: space-between;
+}
+.fifth-tok i{
+    color: #6C7180;
+    margin-left: 8px;
+    transition: .2s ease-in-out;
+    font-size: 22px;
+}
+.fifth-tok i:first-child:hover{
+    color: #2C57E4;
+}
+.fifth-tok i:last-child:hover{
+    color: #EA625A;
+}
+.line{
+    width: 100%;
+    background: #E2E7F8;
+    height: 2px;
+    margin-top: 20px;
+    transition: .2s ease-in-out;
+}
+.line:hover{
+    background: #143DC3;
+}
+@media screen and (max-width: 720px){
+    #sidenav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: .2s ease-in-out;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: #fff;        
+        height: 100%;
+        width: 60%;
+    }
+    #menu{
+        display: block;
+        text-align: left;
+        font-size: 22px;
+        color: #2C57E4;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    #sidenav  ul li{
+        margin: 10px 0px;
+    }
+    #sidenav ul{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    #sidenav ul li a{
+        color: #2C57E4;
+        font-size: 24px;
+    }
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .left{
+        margin-bottom: 20px;
+        margin-left: -5px;
+        background: #fff;
+        width: 100%;
+    }
+    #main{
+        padding: 20px 50px;
+    }
+    .podpis{
+        margin-top: 15px;
+    }
+    .right{
+        width: 100%;
+    }
+    #token{
+        padding: 20px 50px;
+    }
+    .token{
+        padding: 20px;
+    }
+}
+.token-block{
+    flex-direction: column;
+}
